@@ -1,0 +1,31 @@
+{
+  "name": "@simplus/express-firewall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "test": "tsc && mocha",
+    "prepublish": "tsc",
+    "doc": "typedoc --mode file --out ./docs/ ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplusinnovation/permissions.git"
+  },
+  "author": "Yoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplusinnovation/permissions/issues"
+  },
+  "homepage": "https://github.com/simplusinnovation/permissions#readme",
+  "dependencies": {
+    "@simplus/permissions": "^1.0.0",
+    "@types/core-js": "^0.9.41",
+    "@types/express": "^4.0.35",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
